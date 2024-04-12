@@ -15,7 +15,10 @@ public class problem4 {
         int n = sc.nextInt();
         int res = factorial(n);
         System.out.println(res);
-
+        double start = System.nanoTime();
+        double end = System.nanoTime();
+        double duration = (end - start) / 1000000;
+        System.out.println("Time taken: " + duration + " ms");
     }
 
 
